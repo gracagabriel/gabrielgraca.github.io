@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Portfólio - Gabriel Graça</title>
+</head>
+
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header_menu">
+                <li>
+                    <a class="header_link" href="#about">Sobre | About</a>
+                </li>
+                <li>
+                    <a class="header_link" href="#work">Trabalhos | Work</a>
+                </li>
+                <li>
+                    <a class="header_link" href="#contact">Contato | Contact</a>
+                </li>
+                <li class="header_line">|</li>
+                    <li>
+                        <button onclick="darkMode()" id="theme_toggle" class="header_sun">
+                            <span class="material-symbols-outlined">
+                            light_mode
+                            </span>
+                        </button>                        
+                    </li>
+                <li>
+                    <a class="header_resume btn" href="#resume">Resumo</a>
+                </li>
+            </ul>
+            <button onclick="mobileNav()" class="header_bar">
+                <span class="material-symbols-outlined header_bar">
+                    menu
+                    </span>
+            </button>
+        </nav>
+    </header>
+    <!-- Inicio Mobile Navigation-->
+    <div class="mobile_nav">
+        <nav>
+            <ul class="mobile_nav-menu">
+                <li>
+                    <a class="mobile_nav-link" href="#about">Sobre | About</a>
+                </li>
+                <li>
+                    <a class="mobile_nav-link" href="#work">Trabalhos | Work</a>
+                </li>
+                <li>
+                    <a class="mobile_nav-link" href="#contact">Contato | Contact</a>
+                </li>
+                <li class="mobile_nav-link-line"></li>
+                <li>
+                    <button id="theme_toggle" class="mobile_nav-sun">
+                        <span class="material-symbols-outlined">
+                        light_mode
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <a href="#" class="mobile_nav-btn btn">Resumo</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Fim Mobile Navegation-->
+    <!--===== FIM DO HEADER =====-->
+    <main>
+        <!--===== HERO SECTION SUPERIOR =====-->
+        <section class="hero container">
+            <img loading="lazy" class="hero_img" src="https://avatars.githubusercontent.com/u/127799792?v=4" alt="imagem do criador desta página">
+            <h2 class="hero_subtitle">Olá, sou o Gabriel! Hi my name is Gabriel.</h2>
+            <h1 class="hero_title">Desenvolvedor Web!<br> Front-end Web Developer.</h1>
+            <p class="hero_desciption">Descobri uma paixão que é criar páginas Web, Landpages e E-commerce responsivas e interativas, atualmente faço o <strong>desenvolvimento Web, UI/UX</strong>, manutenção em páginas. I discover a passion is create web pages, Landpages and E-commerce responsive and interactive, actually i do <strong> development Web, UI/UX</strong> and maintenance websites.</p>
+            <a class="hero_btn btn" href="#">Veja</a>
+        </section>
+        <!--===== FIM HERO(PERFIL) SECTION SUPERIOR =====-->
+        <section id="about" class="about container section">
+            <div class="about_content">
+                <h2 class="about_title">Sobre | About</h2>
+                <p class="about_description">Bem vindo! Sou o Gabriel, faço <strong>desenvolvimento Web há cerca de 2 anos</strong>  e moro no interior de São Paulo porém possso trabalhar remotamente também fazendo alguns free-lance. Acordo devagar rs, pego meu café e leio um jornal e começo a estudar ou criar páginas e melhora-las.</p>
+                <p class="about_description">Quem me conhece sabe que estou sempre em busca de meus objetivos, e a minha positividade para alcança-los é o que me mantém de pé! Sempre quero aprender e fazer coisas novas.</p>
+                <p class="about_description">Gosto demais da minha família, viajar, conhecer culturas e aprender sobre a vida! Músicas diferentes e também gosto de me divertir jogando rs!</p>
+                <hr class="about_hr">
+                <h3 class="about_subtitle">Tecnologias | Technologies</h3>
+                <div class="about_ul-container">
+                    <ul class="about_ul">
+                        <li class="about_list">HTML(5)</li>
+                        <li class="about_list">CSS(3)</li>
+                        <li class="about_list">Javascript(ES6+)</li>                 
+                    </ul>
+                    <ul class="about_ul">
+                        <li class="about_list">Bootstrap</li>
+                        <li class="about_list">Wordpress</li>
+                        <li class="about_list">MySQL</li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="about_img-wrapper">
+                <img loading="lazy" class="about_img" src="./img/133706868_396032461457371_6912553501664751703_n.jpg" alt="imagem do criador desta página">
+            </div>
+        </section>
+        <!--===== FIM ABOUT(SOBRE) SECTION  =====-->
+        <section id="work" class="featured container section">
+            <h3 class="featured_subtitle">Trabalho recente | Recent work</h3>
+            <div class="featured_wrapper">
+                <h2 class="featured_title">Faculdade UNILAGO</h2>
+                <a class="featured_link" href="https://unilago.riopreto.br" target="_blank"><span class="material-symbols-outlined">
+                attach_file</span></a>
+            </div>                
+            <p class="featured_description">Trabalhei para a faculdade UNILAGO em um projeto mais recente de 3 meses para a manutenção e criação de algumas novas páginas para a faculdade.
+            </p>
+            <div class="featured_info-container">
+                <div>
+                    <h3 class="featured_label">Tecnologia usada | Tech stack</h3>
+                    <ul class="featured_tech-stack">
+                        <li class="featured_info">HTML</li>
+                        <li class="featured_info">CSS</li>
+                        <li class="featured_info">Wordpress</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="featured_label">Tipo projeto | Project type</h3>
+                    <p class="featured_info">Front-end</p>
+                </div>
+                <div>
+                    <h3 class="featured_label">Linha do tempo | Timeline</h3>
+                    <p class="featured_info">January 2023 - April 2023</p>
+                </div>
+            </div>
+            <div class="featured_img-container">
+                <div class="featured_img-wrapper">
+                    <img loading="lazy" src="./img/cepam.png" alt="primeira foto da página desenvolvida">                
+                </div>
+                <div class="featured_img-wrapper">
+                    <img loading="lazy" src="./img/encontros-cientificos.png" alt="segunda foto da página desenvolvida"> 
+                </div>               
+                <div class="featured_img-wrapper">
+                    <img loading="lazy" src="./img/pesquisa-cep.png" alt="outra página desenvolvida do mesmo site">                
+                </div>
+                <div class="featured_img-wrapper">
+                     <img loading="lazy" src="./img/pesquisa-ceua.png" alt="outra página desenvolvida do mesmo site">                 
+                </div>          
+            </div>
+        </section>
+        <!--===== FIM FEATURES(TRABALHOS) SECTION  =====-->
+        <section class="work container section">
+            <h2 class="work_title">Projetos | Projects</h2>
+            <p class="work_description">Aqui está as imagens de alguns projetos elaborados, alguns não foram publicados. Alguns foram experimentos e ideias aprendidas ao longo do caminho, espero que gostem! Toda crítica construtiva sempre é bem vinda e faz com que eu evolua é de grande suporte ao caminho que venho percorrendo e buscando melhorar a cada dia.</p>
+            <div class="work_container">
+                <!--Projeto 1-->
+                <h3 class="work_project-title">Jungle Parallax</h3>
+                <div class="work_img-wrapper work_image1">
+                    <img loading="lazy" src="./img/jungle-parallax.png" alt="imagem do site criado no repositorio Github">
+                </div>
+                <div class="work_project work_content1">
+                    <h3 class="work_project-subtitle">Jungle Parallax</h3>
+                    <p class="work_project-description1">Esta landpage foi realizado em 2022, voltado para estudo e aprendizado de novas técnicas e conceitos de UX/UI
+                    </p>
+                    <p class="work_project-description2">Eu utilizei neles imagens que interagem entre si com a linguagem de programação Javascript, alem disso foi usado os clássicos HTML & CSS. No botão abaixo você vai poder acessar o repositório pessoal criado no GitHub.
+                    </p>
+                    <a class="btn work_project-btn" href="https://github.com/gracagabriel/Parallax-Web" target="_blank">Github</a>
+                </div>
+                <!--Projeto 2-->
+                <h3 class="work_project-title">Gradient Parallax</h3>
+                <div class="work_img-wrapper work_image2">
+                    <img loading="lazy" src="./img/gradient-parallax.png" alt="imagem do site criado no repositorio Github">
+                </div>
+                <div class="work_project work_content2">
+                    <h3 class="work_project-subtitle">Gradient Parallax</h3>
+                    <p class="work_project-description1">Esta landpage foi realizado em 2023, voltado para estudo e aprendizado de novas técnicas e conceitos de UX/UI
+                    </p>
+                    <p class="work_project-description2">Eu utilizei neles imagens que interagem entre si com a linguagem de programação Javascript, alem disso foi usado os clássicos HTML & CSS. No botão abaixo você vai poder acessar o repositório pessoal criado no GitHub.
+                    </p>
+                    <a class="btn work_project-btn" href="https://github.com/gracagabriel/Parallax-e-Gradient" target="_blank">Github</a>
+                </div>
+                <!--Projeto 3-->
+                <h3 class="work_project-title">Adventure Parallax</h3>
+                <div class="work_img-wrapper work_image3">
+                    <img loading="lazy" src="./img/adventure-parallax.png" alt="imagem do site criado no repositorio Github">
+                </div>
+                <div class="work_project work_content3">
+                    <h3 class="work_project-subtitle">Adventure Parallax</h3>
+                    <p class="work_project-description1">Esta landpage foi realizado em 2023, voltado para estudo e aprendizado de novas técnicas e conceitos de UX/UI
+                    </p>
+                    <p class="work_project-description2">Eu utilizei neles imagens que interagem entre si com a linguagem de programação Javascript, alem disso foi usado os clássicos HTML & CSS. No botão abaixo você vai poder acessar o repositório pessoal criado no GitHub.
+                    </p>
+                    <a class="btn work_project-btn" href="https://github.com/gracagabriel/Parallax-Adventure" target="_blank">Github</a>
+                </div>
+                <!--Projeto 4-->
+                <h3 class="work_project-title">Home - Fruit E-commerce.</h3>
+                <div class="work_img-wrapper work_image4">
+                    <img loading="lazy" src="./img/feira-ecommerce.png" alt="imagem do site criado no repositorio Github">
+                </div>
+                <div class="work_project work_content4">
+                    <h3 class="work_project-subtitle">Home - Fruit E-commerce</h3>
+                    <p class="work_project-description1">Esta "home" foi elaborada em 2022, um git iniprojeto voltado para o término do meu curso de Desenvolvedor Front-end. Foi criado apenas a página Home do E-commerce.
+                    </p>
+                    <p class="work_project-description2">Eu utilizei nesta página os clássicos HTML, CSS e Bootstrap. No botão abaixo você vai poder acessar o repositório pessoal criado no GitHub.
+                    </p>
+                    <a class="btn work_project-btn" href="https://github.com/gracagabriel/Loja-Bootstrap" target="_blank">Github</a>
+                </div>
+            </div>
+        </section>
+        <!--===== FIM PROJECTS(PROJETOS) SECTION  =====-->
+        <section id="contact" class="contact container section">
+            <h2 class="contact_title">Contato | Contact</h2>
+            <p class="contact_description">Gostou do portfólio? Quer entrar em contato para iniciar um projeto? Ou já tem um projeto pronto e quer desenvolve-lo para colocar online? Ou apenas quer dizer um oi e trocar algumas ideias, meu inbox esta aberto então fique a vontade para entrar em contato! Irei responder o mais breve que for possível.
+            </p>
+            <p class="contact_obs">Caso não consiga pelo botão "contato", clique com o lado direito do mouse e selecione "copiar endereço de e-mail".</p>
+            <a href="mailto:gabrielgraca@outlook.com.br" target="_blank" class="contact_btn btn">Contato</a>
+        </section>
+        <!--===== FIM CONTACT(CONTATO) SECTION  =====-->
+    </main>
+    <footer class="footer container section">
+        <h3 class="footer_title"> ~ Gabriel Graça ~</h3>
+    </footer>
+    <script src="./src/mobile-nav.js"></script>
+    <script src="./src/theme.js"></script>
+</body>
+
+</html>
